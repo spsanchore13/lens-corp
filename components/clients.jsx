@@ -4,7 +4,9 @@ import React from "react";
 const Clients = () => {
   return (
     <div className="bg-[#fcfbf7]">
-      <h1 className="text-center text-4xl">We Work With Amazing Clients</h1>
+      <h1 className="font-raleway font-semibold  text-center text-4xl">
+        We Work With Amazing Clients
+      </h1>
       <div className="flex gap-x-5 justify-center p-10">
         <Image
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCo_1.ad2ee302.png&w=640&q=75"

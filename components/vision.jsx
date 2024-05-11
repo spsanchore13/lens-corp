@@ -4,7 +4,9 @@ const Vision = () => {
   return (
     <div className="bg-[#f4f8f6] py-10">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-center text-2xl">Our Vision</h1>
+        <h1 className="font-raleway font-semibold text-center text-2xl">
+          Our Vision
+        </h1>
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 

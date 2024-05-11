@@ -1,7 +1,18 @@
-import { Inter } from "next/font/google";
+import { Poppins, Raleway } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "300",
+  variable: "--font-poppins",
+});
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-raleway",
+});
 
 export const metadata = {
   title: "LENS Corporation | Biometrics & Computer Vision",
@@ -12,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${poppins.className} ${raleway.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -2,9 +2,11 @@ import styles from "./services.module.css";
 
 const Services = () => {
   return (
-    <div className="bg-[#f4f8f6]">
+    <div className="bg-[#f4f8f6] py-5">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-center text-2xl">SERVICES</h1>
+        <h1 className="font-raleway font-semibold text-center text-2xl">
+          SERVICES
+        </h1>
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 
@@ -12,9 +14,11 @@ const Services = () => {
         We provide Artificial Intelligence Services
       </h1>
       <div className="grid grid-cols-2 gap-5 px-36">
-        <div className="h-[300px] w-auto bg-white rounded-lg p-10">
+        <div className="group h-[300px] w-auto bg-white rounded-lg p-10 hover:border-[1px] border-[#45d6b6]">
           <div className="flex items-center">
-            <h1 className="text-7xl">01</h1>
+            <h1 className="text-7xl text-[#e2e2e2]">
+              0<span className="group-hover:text-[#01c99b]">1</span>
+            </h1>
             <h2 className="text-4xl text-[#01c99b]">Biometrics</h2>
           </div>
           <p className="text-[#908b89] mt-5">
@@ -24,9 +28,11 @@ const Services = () => {
             internet connection.
           </p>
         </div>
-        <div className="h-[300px] w-auto bg-white rounded-lg p-8">
+        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#3fbdf1]">
           <div className="flex items-center">
-            <h1 className="text-7xl">01</h1>
+            <h1 className="text-7xl text-[#e2e2e2]">
+              0<span className="group-hover:text-[#3fbdf1]">1</span>
+            </h1>
             <h2 className="text-4xl text-[#3fbdf1]">Image Analysis</h2>
           </div>
           <p className="text-[#908b89] mt-5">
@@ -35,9 +41,11 @@ const Services = () => {
             decisions for your <business className=""></business>
           </p>
         </div>
-        <div className="h-[300px] w-auto bg-white rounded-lg p-8">
+        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff6060]">
           <div className="flex items-center">
-            <h1 className="text-7xl">01</h1>
+            <h1 className="text-7xl text-[#e2e2e2]">
+              0<span className="group-hover:text-[#ff605f]">1</span>
+            </h1>
             <h2 className="text-4xl text-[#ff605f]">Cross-Media Translation</h2>
           </div>
           <p className="text-[#908b89] mt-5">
@@ -47,9 +55,11 @@ const Services = () => {
             solutions for maximum convenience.
           </p>
         </div>
-        <div className="h-[300px] w-auto bg-white rounded-lg p-8">
+        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff9f31]">
           <div className="flex items-center">
-            <h1 className="text-7xl">01</h1>
+            <h1 className="text-7xl text-[#e2e2e2]">
+              0<span className="group-hover:text-[#ff9f31]">1</span>
+            </h1>
             <h2 className="text-4xl text-[#ff9f31]">
               3D Modelling and Design.
             </h2>

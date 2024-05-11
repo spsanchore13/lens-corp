@@ -5,11 +5,13 @@ const WhyUs = () => {
   return (
     <div className="bg-[#f4f8f6] py-10">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-center text-2xl">Why Us</h1>
+        <h1 className="font-raleway font-semibold text-center text-2xl">
+          Why Us
+        </h1>
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 
-      <h1 className="text-6xl w-[80%] text-center m-auto mt-20">
+      <h1 className="font-medium text-6xl w-[80%] text-center m-auto mt-20">
         AI-driven solutions backed by science
       </h1>
 

@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+
 import { Moon } from "lucide-react";
 
 const Navbar = () => {
@@ -15,10 +14,18 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-8">
-        <Link href="/">MakeMyWeb.</Link>
-        <Link href="/">Home</Link>
-        <Link href="/">Company</Link>
-        <Link href="/">Blogs</Link>
+        <a href="/" className="ont-poppins hover:font-bold text-[#1e2b34]">
+          MakeMyWeb.
+        </a>
+        <a href="/" className="ont-poppins hover:font-bold text-[#1e2b34]">
+          Home
+        </a>
+        <a href="/" className="ont-poppins hover:font-bold text-[#1e2b34]">
+          Company
+        </a>
+        <a href="/" className="ont-poppins hover:font-bold text-[#1e2b34]">
+          Blogs
+        </a>
 
         <button>
           <Moon className="h-6 w-6" fill />
