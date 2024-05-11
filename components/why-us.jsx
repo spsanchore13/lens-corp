@@ -1,3 +1,4 @@
+import { Fingerprint, Scale, UsersIcon } from "lucide-react";
 import styles from "./services.module.css";
 
 const WhyUs = () => {
@@ -55,6 +56,61 @@ const WhyUs = () => {
             and videos with an aim to retarget voice and/or expressions with
             pose from a single Image/video.
           </p>
+        </div>
+      </div>
+      <div className="h-auto w-full flex justify-center mt-20">
+        <div className="w-[300px] p-5 flex flex-col justify-between">
+          <div>
+            <h1 className="text-3xl font-semibold mb-10">
+              Diversity & Fairness
+            </h1>
+            <p className="text-[#bcbab2]">
+              When training our AI models, we consider ethical and social
+              implications of algorithm-based decision making. Our solutions use
+              high-quality and fairly-represented data sets to eliminate human
+              cognitive biases.
+            </p>
+          </div>
+          <div>
+            <h1 className="text-3xl font-semibold mb-10">
+              Diversity & Fairness
+            </h1>
+            <p className="text-[#bcbab2]">
+              When training our AI models, we consider ethical and social
+              implications of algorithm-based decision making. Our solutions use
+              high-quality and fairly-represented data sets to eliminate human
+              cognitive biases.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <div className="border-4 border-[#717171] rounded-full p-2">
+            <UsersIcon className="h-7 w-7" />
+          </div>
+          <div className="h-[250px] w-[1px] border-[1px] border-dashed border-black" />
+          <div className="border-4 border-[#717171] rounded-full p-2">
+            <Fingerprint className="h-7 w-7" />
+          </div>
+          <div className="h-[250px] w-[1px] border-[1px] border-dashed border-black" />
+          <div className="border-4 border-[#717171] rounded-full p-2">
+            <Scale className="h-7 w-7" />
+          </div>
+          <div className="h-[250px] w-[1px] border-[1px] border-dashed border-black" />
+        </div>
+        <div className="w-[300px] p-5 flex flex-col justify-between">
+          <div />
+          <div>
+            <h1 className="text-3xl font-semibold mb-10">
+              Diversity & Fairness
+            </h1>
+            <p className="text-[#bcbab2]">
+              When training our AI models, we consider ethical and social
+              implications of algorithm-based decision making. Our solutions use
+              high-quality and fairly-represented data sets to eliminate human
+              cognitive biases.
+            </p>
+          </div>
+          <div />
         </div>
       </div>
     </div>

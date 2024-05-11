@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -27,10 +29,27 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className="flex justify-between px-24 py-20">
+        <div>
+          <Image
+            src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"
+            width={100}
+            height={100}
+          />
+          <p className="text-md mt-5 mb-14">Tomorrow's Vision, Today!</p>
+          <div className="flex gap-x-5">
+            <Facebook />
+            <Instagram />
+            <Linkedin />
+            <Twitter />
+          </div>
+        </div>
+        <div>
+          <p className="font-semibold">SITEMAP</p>
+        </div>
+        <div>
+          <p className="font-semibold">CONNECT</p>
+        </div>
       </div>
       <div className="flex justify-between bg-[#272e5c] p-10">
         <a href="#" className="text-[#58748d]">

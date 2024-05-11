@@ -1,4 +1,7 @@
 import About from "@/components/about";
+import Blogs from "@/components/blogs";
+import Clients from "@/components/clients";
+import Faq from "@/components/faq";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
@@ -15,6 +18,9 @@ export default function Home() {
       <Services />
       <WhyUs />
       <Vision />
+      <Blogs />
+      <Clients />
+      <Faq />
       <Footer />
     </main>
   );
