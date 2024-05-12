@@ -21,9 +21,9 @@ const Vision = () => {
         opaque AI models and their predictions.
       </p>
 
-      <div className="h-auto grid grid-cols-2 place-items-center  w-full md:flex md:justify-center mt-20">
+      <div className="h-auto grid grid-cols-1 md:grid-cols-2 w-full md:flex md:justify-center mt-20">
         <div className="w-[300px] p-5 flex flex-col justify-between">
-          <div>
+          <div className="hover:scale-105 transition ease-in-out delay-150 duration-300">
             <h1 className="text-3xl font-semibold mb-10">
               Diversity & Fairness
             </h1>
@@ -35,15 +35,16 @@ const Vision = () => {
             </p>
           </div>
 
-          <div>
+          <div className="hover:scale-105 transition ease-in-out delay-150 duration-300 mt-10 md:mt-auto">
             <h1 className="text-3xl font-semibold mb-10">
-              Diversity & Fairness
+              Regulatory Compliance
             </h1>
             <p className="text-[#bcbab2]">
-              When training our AI models, we consider ethical and social
-              implications of algorithm-based decision making. Our solutions use
-              high-quality and fairly-represented data sets to eliminate human
-              cognitive biases.
+              Working with clients globally, LENS acknowledges applicable data
+              privacy regulations, such as the GDPR, HIPAA and others, in all
+              our solutions handling sensitive data. We also ensure our
+              algorithms allow for the required level of decision-making
+              transparency and explainability.
             </p>
           </div>
         </div>
@@ -64,15 +65,14 @@ const Vision = () => {
         </div>
         <div className="w-[300px] p-5 flex flex-col justify-between">
           <div />
-          <div>
-            <h1 className="text-3xl font-semibold mb-10">
-              Diversity & Fairness
-            </h1>
+          <div className="hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <h1 className="text-3xl font-semibold mb-10">Code of Ethics</h1>
             <p className="text-[#bcbab2]">
-              When training our AI models, we consider ethical and social
-              implications of algorithm-based decision making. Our solutions use
-              high-quality and fairly-represented data sets to eliminate human
-              cognitive biases.
+              LENS believes in a just, non-violent world of equality and
+              fairness. We prize democratic values, civil liberties and open and
+              informed debate. When used to further these values,
+              algorithm-based decision-making models can continue to make the
+              world a safer, better place for everyone.
             </p>
           </div>
           <div />

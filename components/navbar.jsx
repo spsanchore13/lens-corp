@@ -44,7 +44,7 @@ const Navbar = () => {
         }`}
       >
         <a
-          href="/"
+          href="#"
           className={`${
             showMobileNavbar ? "text-white hover:font-bold" : "hover:font-bold"
           } dark:text-white`}
@@ -52,7 +52,7 @@ const Navbar = () => {
           MakeMyWeb.
         </a>
         <a
-          href="/"
+          href="#"
           className={`${
             showMobileNavbar ? "text-white hover:font-bold" : "hover:font-bold"
           } dark:text-white`}
@@ -60,7 +60,7 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href="/"
+          href="#company"
           className={`${
             showMobileNavbar ? "text-white hover:font-bold" : "hover:font-bold"
           } dark:text-white`}
@@ -68,7 +68,7 @@ const Navbar = () => {
           Company
         </a>
         <a
-          href="/"
+          href="#blogs"
           className={`${
             showMobileNavbar ? "text-white hover:font-bold" : "hover:font-bold"
           } dark:text-white`}

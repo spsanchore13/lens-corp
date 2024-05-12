@@ -1,12 +1,13 @@
 const About = () => {
   return (
-    <div className="p-5 md:p-20">
+    <div id="company" className="p-5 md:p-20">
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-raleway font-semibold text-center text-5xl md:text-6xl">
           About Us
         </h1>
         <hr className="border-blue-400 border-2 w-1/6 rounded-full" />
       </div>
+      
       <div className="group flex flex-col-reverse justify-between md:flex-row w-full bg-[#e2f2ff] mt-20 rounded-xl p-5 md:p-10 hover:scale-105 transition ease-in-out delay-150 duration-300">
         <div className="w-full flex flex-col justify-center items-center md:block md:w-[50%]">
           <h1 className="text-center md:text-start text-4xl md:text-5xl text-bold mt-10">

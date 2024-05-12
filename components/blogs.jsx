@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className="bg-[#fcfbf7] py-10">
+    <div id="blogs" className="bg-[#fcfbf7] py-10">
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-raleway font-semibold text-center text-2xl">
           OUR BLOGS
