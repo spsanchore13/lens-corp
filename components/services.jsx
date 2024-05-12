@@ -10,11 +10,11 @@ const Services = () => {
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 
-      <h1 className="text-6xl w-[80%] text-center m-auto my-20">
+      <h1 className="text-4xl md:text-6xl w-full md:w-[80%] text-center m-auto my-20">
         We provide Artificial Intelligence Services
       </h1>
-      <div className="grid grid-cols-2 gap-5 px-36">
-        <div className="group h-[300px] w-auto bg-white rounded-lg p-10 hover:border-[1px] border-[#45d6b6]">
+      <div className="p-5 flex flex-col gap-y-5 md:grid md:grid-cols-2 md:gap-5 md:px-36">
+        <div className="group h-auto md:h-[300px] w-auto bg-white rounded-lg p-10 hover:border-[1px] border-[#45d6b6]">
           <div className="flex items-center">
             <h1 className="text-7xl text-[#e2e2e2]">
               0<span className="group-hover:text-[#01c99b]">1</span>
@@ -28,7 +28,7 @@ const Services = () => {
             internet connection.
           </p>
         </div>
-        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#3fbdf1]">
+        <div className="group h-auto md:h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#3fbdf1]">
           <div className="flex items-center">
             <h1 className="text-7xl text-[#e2e2e2]">
               0<span className="group-hover:text-[#3fbdf1]">1</span>
@@ -41,7 +41,7 @@ const Services = () => {
             decisions for your <business className=""></business>
           </p>
         </div>
-        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff6060]">
+        <div className="group h-auto md:h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff6060]">
           <div className="flex items-center">
             <h1 className="text-7xl text-[#e2e2e2]">
               0<span className="group-hover:text-[#ff605f]">1</span>
@@ -55,7 +55,7 @@ const Services = () => {
             solutions for maximum convenience.
           </p>
         </div>
-        <div className="group h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff9f31]">
+        <div className="group h-auto md:h-[300px] w-auto bg-white rounded-lg p-8 hover:border-[1px] border-[#ff9f31]">
           <div className="flex items-center">
             <h1 className="text-7xl text-[#e2e2e2]">
               0<span className="group-hover:text-[#ff9f31]">1</span>
@@ -73,8 +73,8 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="relative mt-20 h-[500px] bg-[#272e5c]">
-        <div className={styles.shape}>
+      <div className="md:relative flex justify-center items-center mt-20 h-[300px] md:h-[500px] bg-[#272e5c]">
+        <div className={`${styles.shape} hidden md:flex`}>
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -88,12 +88,12 @@ const Services = () => {
           </svg>
         </div>
 
-        <div className="absolute bottom-0 w-full flex justify-between pl-10 items-center">
-          <div>
+        <div className="md:absolute md:bottom-0 w-full md:flex md:justify-between md:items-center  md:pl-10">
+          <div className="hidden md:flex">
             <img src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FvectorAi.8ec84e23.png&w=750&q=75" />
           </div>
-          <div className="w-[30%] text-white text-center">
-            <h1 className="text-6xl">
+          <div className="w-full md:w-[30%] text-white text-center">
+            <h1 className="text-3xl md:text-6xl">
               Meet <span>Tru-AI</span>
             </h1>
             <h3 className="text-2xl my-4">Design. Create. Deploy.</h3>
@@ -106,7 +106,7 @@ const Services = () => {
               Learn More
             </button>
           </div>
-          <div>
+          <div className="hidden md:block">
             <div className="rounded-l-full">
               <video
                 muted
