@@ -10,13 +10,13 @@ const Blogs = () => {
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 
-      <h1 className="text-6xl w-[80%] text-center m-auto mt-20">
+      <h1 className="text-4xl md:text-6xl md:w-[80%] text-center m-auto mt-20">
         Inhouse Mindscape
       </h1>
 
       <div className="w-[80%] m-auto">
-        <div className="flex justify-center gap-5 py-20">
-          <div className="w-[400px] h-[500px] flex flex-col justify-between bg-white p-7 rounded-lg">
+        <div className="flex flex-col md:flex-row justify-center gap-5 py-20">
+          <div className="md:w-[400px] h-[500px] flex flex-col justify-between bg-white p-7 rounded-lg">
             <h3 className="text-xl text-red-500">New!</h3>
             <h1 className=" text-2xl">New! Generative AI</h1>
             <div className="bg-[#fff6cd] p-5 rounded-lg">
@@ -27,9 +27,11 @@ const Blogs = () => {
                 the marketing landscape....
               </p>
             </div>
-            <a href="#">Read More &gt;&gt;</a>
+            <a href="#" className="mt-5">
+              Read More &gt;&gt;
+            </a>
           </div>
-          <div className="w-[400px] h-[500px] flex flex-col justify-between bg-white p-7 rounded-lg">
+          <div className="md:w-[400px] h-[500px] flex flex-col justify-between bg-white p-7 rounded-lg">
             <h3>April 25, 2024</h3>
             <h1 className=" text-2xl">
               April 25, 2024 The Evolution of AI in Games
@@ -43,11 +45,13 @@ const Blogs = () => {
                 that continues to shape the future of play!...
               </p>
             </div>
-            <a href="#">Read More &gt;&gt;</a>
+            <a href="#" className="mt-5">
+              Read More &gt;&gt;
+            </a>
           </div>
         </div>
 
-        <div className="w-[80%] m-auto h-[300px] flex flex-col justify-between bg-white p-7 rounded-lg">
+        <div className="md:w-[80%] m-auto md:h-[300px] flex flex-col justify-between bg-white p-7 rounded-lg">
           <h3>April 18, 2024</h3>
           <h1 className=" text-2xl">
             Unmasking the Misconceptions of Artificial Intelligence in the
@@ -60,7 +64,9 @@ const Blogs = () => {
               impacts their work....
             </p>
           </div>
-          <a href="#">Read More &gt;&gt;</a>
+          <a href="#" className="mt-5">
+            Read More &gt;&gt;
+          </a>
         </div>
       </div>
 

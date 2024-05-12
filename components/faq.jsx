@@ -10,11 +10,11 @@ const Faq = () => {
         <hr className="border-blue-400 border-2 w-[80px] rounded-full" />
       </div>
 
-      <h1 className="text-6xl w-[80%] text-center m-auto mt-20">
+      <h1 className="text-4xl md:text-6xl w-[80%] text-center m-auto mt-20">
         Frequently Asked Questions
       </h1>
 
-      <div className="grid grid-cols-2 gap-7 py-10 w-[75%] m-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 py-10 w-[75%] m-auto">
         <details>
           <summary className="list-none cursor-context-menu border-[1px] border-black rounded-lg p-3 flex justify-between">
             Do i need to sign a contract?
