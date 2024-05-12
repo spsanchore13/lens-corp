@@ -22,7 +22,7 @@ const WhyUs = () => {
         market.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-5 md:px-36">
+      <div className="flex flex-wrap justify-center gap-5 lg:px-36">
         <div className="h-[400px] w-[300px]  bg-white rounded-lg p-10">
           <h2 className="text-2xl text-black font-bold">Exclusive Rights</h2>
 
