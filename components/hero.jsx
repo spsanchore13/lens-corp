@@ -8,11 +8,11 @@ const Hero = () => {
 
       <div className="absolute top-0 flex flex-col md:block justify-center items-center py-[50%] md:py-10 md:px-32 md:w-[60%]">
         <h1
-          className={`font-raleway text-center text-5xl md:text-6xl font-bold mb-10`}
+          className={`font-raleway text-center md:text-start text-5xl md:text-6xl font-bold mb-10`}
         >
           We are at the forefront of AI
         </h1>
-        <p className={`font-poppins hidden md:flex`}>
+        <p className={`font-poppins hidden md:block`}>
           From Conserving Wildlife to Automatically Generating Caricatures –{" "}
           <span className="font-bold">We Do It All</span>
         </p>
