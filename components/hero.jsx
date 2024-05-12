@@ -6,7 +6,7 @@ const Hero = () => {
         className="h-[90vh] w-full object-cover"
       />
 
-      <div className="absolute top-0 flex flex-col md:block justify-center items-center md:py-[250px] lg:py-[50px] md:px-12 lg:px-32 md:w-[60%]">
+      <div className="absolute top-0 flex flex-col md:block justify-center items-center py-36 md:py-[250px] lg:py-[50px] md:px-12 lg:px-32 md:w-[60%]">
         <h1
           className={`font-raleway text-center md:text-start text-5xl md:text-6xl font-bold mb-10`}
         >
