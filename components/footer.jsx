@@ -46,7 +46,7 @@ const Footer = () => {
             <Twitter />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-3 mt-10 md:mt-auto">
+        <div className="flex flex-col justify-center gap-y-3 mt-10 md:mt-auto">
           <p className="font-semibold">SITEMAP</p>
           <a href="#">MakeMyWeb.</a>
           <a href="#">Services</a>
@@ -54,7 +54,7 @@ const Footer = () => {
           <a href="#">Blogs</a>
           <a href="#">Life at LENS</a>
         </div>
-        <div className="flex flex-col justify-center items-center gap-y-3 mt-10 md:mt-auto">
+        <div className="flex flex-col justify-center gap-y-3 mt-10 md:mt-auto">
           <p className="font-semibold">CONNECT</p>
           <a href="#">+1-517-9300-792</a>
           <a href="#">+91-9990-736-796</a>
